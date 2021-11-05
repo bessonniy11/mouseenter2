@@ -72,10 +72,10 @@
     transform: translate(5px, -5px);
 }
 .body__left-bottom._active {
-    transform: translate(-5px, 5px);
+    transform: translate(5px, 5px);
 }
 .body__right-bottom._active {
-    transform: translate(5px, 5px);
+    transform: translate(-5px, 5px);
 }
 
 .description {
@@ -134,7 +134,7 @@
     color: #34A4D3;
     position: absolute;
     transform: translate(-50%, 50%);
-    top: 55%;
+    top: 58%;
     left: 55%;
     display: flex;
     transition: color 0.3s ease 0s;
